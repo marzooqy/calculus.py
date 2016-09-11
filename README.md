@@ -3,7 +3,7 @@ A cool eight lines of code that I use to check my answers while doing math homew
 
 I tend to use it in the REPL but you can use it in your applications too.
 
-The derivative function takes a function and returns the derivative function of that function. This approach allows you to take second and third derivatives of the function. Derivatives are calculated using the central difference derivative formula.
+The derivative function takes a function and a point and returns the derivative of the function at that point. Derivatives are calculated using the central difference derivative formula.
 
 The integral function takes the function that you're integrating and the lower and upper bounds of the integral, and returns a float representing the result of the integration. The function is using midpoint approximation to find the integral.
 
