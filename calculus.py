@@ -1,8 +1,6 @@
-from math import *
-
-def d(f):
+def d(f, x):
 	h = 0.000001
-	return lambda x: (f(x + h / 2) - f(x - h / 2)) / h
+	return (f(x + h) - f(x - h)) / (2 * h)
 	
 def i(f, a, b):
 	n = 1000000
