@@ -5,7 +5,7 @@ I tend to use it in the REPL but you can use it in your applications too.
 
 The derivative function takes a function and a point and returns the derivative of the function at that point. Derivatives are calculated using the central difference derivative formula.
 
-The integral function takes the function that you're integrating and the lower and upper bounds of the integral, and returns a float representing the result of the integration. The function is using midpoint approximation to find the integral.
+The integral function takes the function that you're integrating and the lower and upper bounds of the integral, and returns the result of the integration. The function is using midpoint approximation to find the integral.
 
 Note that both functions will return a result even when the derivative or the integral does not exist at a praticular point. For example the derivative of 1/x at zero.
 
