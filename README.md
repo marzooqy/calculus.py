@@ -1,7 +1,4 @@
-#About
-A cool eight lines of code that I use to check my answers while doing math homework.
-
-I tend to use it in the REPL but you can use it in your applications too.
+#Derivative and integral functions
 
 The derivative function takes a function and a point and returns the derivative of the function at that point. Derivatives are calculated using the central difference derivative formula.
 
