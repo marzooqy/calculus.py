@@ -1,4 +1,4 @@
-#Derivative and integral functions
+## Derivative and integral functions
 
 The derivative function takes a function and a point and returns the derivative of the function at that point. Derivatives are calculated using the central difference derivative formula.
 
@@ -6,9 +6,11 @@ The integral function takes the function that you're integrating and the lower a
 
 Note that both functions will return a result even when the derivative or the integral does not exist at a praticular point. For example the derivative of 1/x at zero.
 
-#Example
+## Example
+
 This calculates the length of f(x) = x between 0 and 1
-```
+
+```python
 from calculus import *
 from math import *
 
